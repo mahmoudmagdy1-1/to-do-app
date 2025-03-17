@@ -6,7 +6,7 @@ const authRoutes = require('./routes/auth.router')
 const todoRoutes = require('./routes/todo.router')
 
 const app = express()
-const port = 3003
+const port = 3000
 
 app.use(express.json())
 app.use(cookieParser())
